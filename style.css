@@ -1,0 +1,173 @@
+/*Architectuer CSS
+ *
+ * Copyright (c) 2012, Mahla Delpak (mahlad365@gmail.com)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ */
+/*---------------Global Section---------------*/
+*{
+	margin:0;
+	padding:0;	
+}
+body{
+	background:#f4f4f2;		
+}
+header, header .top, header .feature, #main,.container article , footer, footer .content, footer .bottom{
+	float:right;
+	clear:both;
+	width:100%;
+}
+#main{
+	padding:30px 0;	
+}
+
+/*---------------Header Parent---------------*/
+
+header .top{
+	background-color:#19292e;
+	height:30px;
+	
+}
+header .top nav, header .feature section{
+	margin:0 auto;
+	width:960px;	
+}
+header .top nav ul li{
+	background:url(images/separator-toolbar.png) no-repeat center left;
+	float:right;
+	line-height:30px;
+	padding:0 8px;
+	text-align:center;
+	
+}
+header .feature section{
+	margin:40px auto 33px;
+	
+		
+}
+header .top nav ul.left li{
+	float:left;	
+}
+header .top nav ul li a{
+	
+	color:#b1b1b1;
+	text-decoration:none;	
+	
+}
+header .feature{
+	background-image:url(images/rays.png), url(images/bg-header-holder.jpg);
+	background-position:0 0, 0 0;
+	background-attachment:scroll, scroll;
+	background-repeat:repeat-x, repeat-x;
+	height:139px;
+	
+		
+}
+header .feature nav{
+	padding:1.01px;
+	min-height:50px;
+	position:relative;
+}
+header .feature nav ul li{
+	float:right;
+	background:url(images/seperator-main-nav.png) no-repeat center left;
+	line-height:50px;
+	padding:0 30px;
+	position:relative;	
+}
+header .feature nav ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+header .feature nav ul li:hover, header .feature nav ul li ul li{
+	background-color:#19292e;	
+}
+header .feature nav ul li:hover a{
+	color:#fff;
+		
+}
+header .feature nav ul li ul{
+	list-style-type:none;
+	position:absolute;
+	right:0;
+	top:40px;
+	display:none;
+	border-top:2px groove #fff;
+}
+header .feature nav ul li li{
+	float:none;
+	text-align:right;
+	background:none;
+	padding:0 10px;
+	line-height:40px;	
+}
+header .feature nav ul li li:hover{
+	background-color:#49666e;	
+}
+header .feature nav ul li ul li a{
+	white-space:nowrap;	
+}
+header .feature nav ul li:hover ul{
+	display:block;
+	min-width:100%;	
+}
+
+/*---------------Main > Container Parent---------------*/
+#main{
+	background:url(images/bg-div-main.jpg) repeat-x 0 0 scroll;
+}
+div.container article{
+	margin:15px auto;
+	padding-top:1px !important;	
+}
+
+div.container article section{
+	/*outline:1px solid #6CF;*/	
+}
+div.container article.first section{
+	background:url(images/bg-jquery-bnr.jpg) no-repeat top center;
+	width:940px;
+	height:283px;
+	margin:0 auto;
+}
+div.container article.second section{
+	background-image:url(images/separator3.gif),url(images/separator3.gif);
+	background-position:top center, bottom center;
+	background-repeat:repeat-x, repeat-x;
+	background-attachment:scroll, scroll; 
+	min-height:50px;
+	width:auto;
+	margin:0 5px;
+	color:#666;
+	padding:10px;	
+}
+article.third section{
+	outline:1px solid #CCC;
+	min-height:300px;
+	margin:0 3.5px;
+	background:url(images/image1-190x111.jpg) top center no-repeat;
+}
+article.forth section{
+	border:1px solid #d8d9d6;
+	border-radius:5px;
+	background:url(images/bg_quote_wrap.png) 25px 25px no-repeat #e7e9e6;
+}
+article.forth section p{
+	margin:40px 10px 20px 80px;	
+	color:#666;
+}
+/*---------------Footer Parent---------------*/
+footer .content{
+	background:url(images/bg-footer.jpg) repeat-x 0 0 scroll #19292e;
+	min-height:350px;	
+}
+footer .bottom{
+	background:url(images/bg-footer-bottom.jpg) #111C20 repeat-x scroll 0 0;
+	min-height:89px;	
+}
