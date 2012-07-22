@@ -1,16 +1,16 @@
 <?php
 	include'header.php';
 ?>
-        	<article class="first">
+        	<article class="first index">
             	<section></section>
             </article>
-            <article class="second">
+            <article class="second index">
             	<section>
                 	<p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
                     <p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
                 </section>
             </article>
-            <article class="third">
+            <article class="third index">
             	<section class="w6 right">
                 	<img src="images/image1-190x111.jpg">
                     <h4>نام یا موضوع پروژه</h4>
@@ -44,7 +44,7 @@
                     <a href="" class="right">ادامه مطلب</a>
                 </section>
             </article>
-            <article class="forth">
+            <article class="forth index">
             	<section>
                 	<p>Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.
                     Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Morbi ac commodo nulla.</p>
