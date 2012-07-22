@@ -90,6 +90,10 @@ header .feature nav ul li a{
 	text-decoration:none;
 	display:block;
 }
+header .feature nav > ul > li:hover{
+	border:1px solid black;
+	border-radius:10px;
+}
 header .feature nav ul li:hover, header .feature nav ul li ul li{
 	background-color:#19292e;	
 }
@@ -104,16 +108,19 @@ header .feature nav ul li ul{
 	top:40px;
 	display:none;
 	border-top:2px groove #fff;
+	border-radius:2px;
 }
 header .feature nav ul li li{
 	float:none;
 	text-align:right;
 	background:none;
 	padding:0 10px;
-	line-height:40px;	
+	line-height:40px;
+	
 }
 header .feature nav ul li li:hover{
-	background-color:#49666e;	
+	background-color:#49666e;
+	
 }
 header .feature nav ul li ul li a{
 	white-space:nowrap;	
@@ -192,4 +199,19 @@ footer .content article section h3{
 footer .bottom{
 	background:url(images/bg-footer-bottom.jpg) #111C20 repeat-x scroll 0 0;
 	min-height:89px;	
+}
+footer .bottom article{
+	margin:35px auto;
+	width:980px;	
+}
+footer .bottom article nav ul li{
+	float:right;
+	padding:0 5px;	
+}
+footer .bottom article nav ul li a{
+	color:#7a93a1;	
+}
+footer .bottom article p{
+	color:#bcbcbc;
+	
 }
