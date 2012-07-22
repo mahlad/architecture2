@@ -135,7 +135,7 @@ header .feature nav ul li:hover ul{
 #main{
 	background:url(images/bg-div-main.jpg) repeat-x 0 0 scroll;
 }
-div.container article{
+div.container article.index{
 	margin:15px auto;
 	padding-top:1px !important;	
 }
