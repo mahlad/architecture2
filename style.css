@@ -18,7 +18,7 @@ body{
 	background:#f4f4f2;	
 	text-align:right;	
 }
-header, header .top, header .feature, #main,.container article , footer, footer .content, footer .bottom{
+header, header .top, header .feature, #main,.container article , footer, footer .content, footer .bottom, div.floor{
 	float:right;
 	clear:both;
 	width:100%;

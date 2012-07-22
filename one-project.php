@@ -1,8 +1,8 @@
 <?php
 	include'header.php';
 ?>
-<div class="w5 right">
-	<nav class="project">
+<div class="floor">
+	<nav class="w5 right project">
     	<ul>
         	<li><a href="">پروژه شماره 111</a></li>
             <li><a href="">پروژه شماره 112</a></li>
@@ -10,9 +10,9 @@
             <li><a href="">پروژه شماره 114</a></li>
         </ul>
     </nav>
-</div>
-<article class="last mr6" ></article>
 
+	<article class="last mr6" ></article>
+</div>
 <?php
 	include'footer.php';
 ?>
