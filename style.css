@@ -167,6 +167,18 @@ footer .content{
 	background:url(images/bg-footer.jpg) repeat-x 0 0 scroll #19292e;
 	min-height:350px;	
 }
+footer .content article{
+	margin:90px auto 40px;
+	padding-top:1px;
+	width:980px;	
+}
+footer .content article section{
+	outline:1px dotted #fff;
+	min-height:200px;	
+}
+footer .content article section.right{
+	margin:0 10px;	
+}
 footer .bottom{
 	background:url(images/bg-footer-bottom.jpg) #111C20 repeat-x scroll 0 0;
 	min-height:89px;	
