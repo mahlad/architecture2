@@ -30,6 +30,9 @@ h3{
 	font-size:18px;
 		
 }
+h4{
+	font-size:16px;	
+}
 
 /*---------------Header Parent---------------*/
 
@@ -108,11 +111,9 @@ header .feature nav ul li ul{
 	top:40px;
 	display:none;
 	border-top:2px groove #fff;
-	border-radius:2px;
 }
 header .feature nav ul li li{
 	float:none;
-	text-align:right;
 	background:none;
 	padding:0 10px;
 	line-height:40px;
@@ -162,9 +163,14 @@ div.container article.second section{
 article.third section{
 	outline:1px solid #CCC;
 	min-height:300px;
-	margin:0 3.5px;
-	background:url(images/image1-190x111.jpg) top center no-repeat;
 }
+article.third section img,article.third section h4, article.third section p,article.third section a{
+	margin:0 20px 20px 0;
+}
+article.third section h4{
+	font-weight:bold;	
+}
+
 article.forth section{
 	border:1px solid #d8d9d6;
 	border-radius:5px;
