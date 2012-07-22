@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/reset.css" >
     <link rel="stylesheet" href="css/grid.css" >
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="architecture2-pages.css">
     <script src="js/html5shiv.js"></script>
 </head>
 
@@ -29,13 +30,13 @@
         	<section>
                 <nav class="right">
                     <ul>
-                        <li><a href="">پروژه ها</a>
+                        <li><a href="projects.php">پروژه ها</a>
                         	<ul>
-                                <li><a href="">پروژه ها</a></li>
-                                <li><a href="">شرکت های مرتبط متخصصین</a></li>
-                                <li><a href="">متخصصین</a></li>
-                                <li><a href="">سوابق</a></li>
-                                <li><a href="">چارت سازمان</a></li>
+                                <li><a href="one-project.php">پروژه شماره 110</a></li>
+                                <li><a href="">پروژه شماره 111</a></li>
+                                <li><a href="">پروژه شماره 112</a></li>
+                                <li><a href="">پروژه شماره 113</a></li>
+                                <li><a href="">پروژه شماره 114</a></li>
                             </ul>
                         </li>
                         <li><a href="">شرکت های مرتبط</a>
