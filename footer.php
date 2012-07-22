@@ -18,7 +18,7 @@
             </article>
         </div>
     	<div class="bottom">
-        	<article>
+        	<article class="index">
                 <nav class="right">
                     <ul>
                         <li><a href="">خانه</a></li>
