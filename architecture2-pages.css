@@ -1,8 +1,57 @@
+/*---------------home.php---------------*/
+#main{
+	background:url(images/bg-div-main.jpg) repeat-x 0 0 scroll;
+}
+div.container article.home{
+	margin:15px auto;
+	padding-top:1px !important;	
+}
+
+div.container article section{
+	/*outline:1px solid #6CF;*/	
+}
+div.container article.first section{
+	background:url(images/bg-jquery-bnr.jpg) no-repeat top center;
+	width:940px;
+	height:283px;
+	margin:0 auto;
+}
+div.container article.second section{
+	background-image:url(images/separator3.gif),url(images/separator3.gif);
+	background-position:top center, bottom center;
+	background-repeat:repeat-x, repeat-x;
+	background-attachment:scroll, scroll; 
+	min-height:50px;
+	width:auto;
+	margin:0 5px;
+	color:#666;
+	padding:10px;	
+}
+article.third section{
+	outline:1px solid #CCC;
+	min-height:300px;
+}
+article.third section img,article.third section h4, article.third section p,article.third section a{
+	margin:0 20px 20px 0;
+}
+article.third section h4{
+	font-weight:bold;	
+}
+
+article.forth section{
+	border:1px solid #d8d9d6;
+	border-radius:5px;
+	background:url(images/bg_quote_wrap.png) 25px 25px no-repeat #e7e9e6;
+}
+article.forth section p{
+	margin:40px 10px 20px 80px;	
+	color:#666;
+}
 /*---------------onc-project.php---------------*/
 nav.project{
 	padding-bottom:60px;
 	background:url(images/bg-sidebar.gif) repeat-y scroll left 0;
-		
+	margin:0 0 0 20px;	
 }
 nav.project ul li{
 	height:30px;	
@@ -22,7 +71,16 @@ nav.project ul li:hover a{
 	color:#fff;
 	
 }
-div.floor .content img,div.floor .content p{
+div.floor .content div.fram-once{
+	background:url(images/image-frame-sprite-2.png) no-repeat 0 -1354px;
+	width:720px;
+	height:240px;
+	margin-bottom:10px;
+}
+div.floor .content img{
+	margin:8px 9px;	
+}
+div.floor .content p{
 	margin-bottom:20px;
 	color:#666;
 }
