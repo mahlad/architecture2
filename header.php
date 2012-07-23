@@ -15,7 +15,7 @@
     	<div class="top">
         	<nav >
             	<ul class="right">
-                	<li><a href="">خانه</a></li>
+                	<li><a href="index.php">خانه</a></li>
                     <li><a href="">مسیر سایت</a></li>
                     <li><a href="">درباره ما</a></li>
                 </ul>
