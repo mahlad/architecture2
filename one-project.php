@@ -31,7 +31,8 @@
             	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod nulla sit amet est viverra convallis. Proin vestibulum eros sit amet justo auctor ultricies. Duis libero dui, semper et cursus eu, vulputate eget eros. Vivamus tincidunt magna eget quam luctus dictum tristique ante vestibulum. Fusce in bibendum nisi. Fusce ut dolor ut neque auctor interdum a et lacus. Praesent eleifend, diam at accumsan fringilla, felis dui aliquet odio, vel feugiat purus mi at tortor</p>
             </section>
     </div>
-</div>
+</div><!--floor-->
+<div class="clear"></div>
 <?php
 	include'footer.php';
 ?>
