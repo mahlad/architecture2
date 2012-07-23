@@ -36,7 +36,32 @@ h3{
 h4{
 	font-size:16px;	
 }
+/*---------------Welcome Page---------------*/
+div.welcom{
+	background-image:url(images/paris-1280.jpg);
+	background-repeat:no-repeat;
+	height:700px;	
+}
+div.welcom div.bg-pattern{
+	background:url(images/2.png) repeat;
+	width:100%;
+	height:100%;
+}
+div.welcom ul{
+	position:absolute;
+	top:20%;
+	right:0;
+}
+div.welcom ul li{
+	background:#19292e;
+	margin:10px 0;
+	padding:10px;
 
+}
+div.welcom ul li a{
+	color:#fff;
+	text-decoration:none;
+}
 /*---------------Header Parent---------------*/
 
 header .top{
