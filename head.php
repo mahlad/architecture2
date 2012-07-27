@@ -8,4 +8,5 @@
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="architecture2-pages.css">
     <script src="js/html5shiv.js"></script>
+	<script src="js/architecture-sliders.js"></script>
 </head>

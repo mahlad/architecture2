@@ -38,15 +38,67 @@ article.third section h4{
 	font-weight:bold;	
 }
 
-article.forth section{
-	border:1px solid #d8d9d6;
-	border-radius:5px;
-	background:url(images/bg_quote_wrap.png) 25px 25px no-repeat #e7e9e6;
-}
-article.forth section p{
-	margin:40px 10px 20px 80px;	
+article.forth{
+		position:relative;
+		margin:0 auto;
+		width:960px;
+		height:150px;
+	}
+	article.forth div.inside{
+		width:960px;
+		border:1px solid #d8d9d6;
+		background:#e7e9e6;
+		overflow:hidden;
+		border-radius:5px;
+		height:100px;
+		position:relative;
+	}
+	div.inside img{
+		position:absolute;
+		right:10px;
+		
+	}
+	div.inside section.message{
+		top:33px;
+		position:absolute;
+		width:3900px;
+		right:0;
+		
+		/*margin:0 60px;	for the pic bg		*/
+	}
+	div.inside section.message > span{
 	color:#666;
-}
+	width:960px;
+	display:inline;
+	text-align:right;
+	float:right;
+
+	
+	}
+	article.forth ul.nav{
+		position:absolute;
+		list-style-type:none;
+		margin:0 auto;
+		bottom:0;
+		left:0;
+		right:0;
+		width:75px;
+	
+	}
+	article.forth ul.nav li{
+		background:url(images/buton.png) -12px -17px no-repeat;
+		float:right;
+		width:12px;
+		height:17px;
+		margin-right:5px;
+		cursor:pointer;
+	}
+	article.forth ul.nav li.active, article.forth ul.nav li:hover{
+		background:url(images/buton.png) 0 -17px no-repeat;
+	}
+	article.forth ul.nav li:first-child{
+		margin-right:0;	
+	}
 /*---------------onc-project.php---------------*/
 nav.project{
 	padding-bottom:60px;
