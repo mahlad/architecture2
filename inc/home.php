@@ -2,7 +2,16 @@
 	include'header.php';
 ?>
         	<article class="first home">
-            	<section></section>
+            	<div class="sl-FR-Out">
+				<img src="images/first-slide-0.jpg">
+		</div>
+    			
+		<ul class="navFirst">
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
             </article>
             <article class="second home">
             	<section>
@@ -45,23 +54,22 @@
                 </section>
             </article>
             <article class="forth ">
-		
-		<div class="inside">
-			<img src="images/bg_quote_wrap.png">
-            	<section class="message">
-                	<span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-					aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-					aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-					aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-					</span>
-					<span>bbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</span>
-					<span>ccccc
-					cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</span>
-					<span>dddddddddddddd
-					hhgfhggfffgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
-					dddddddddddddddddddddddddddddddddd</span>
-                </section>
-			</div>
+				<div class="inside">
+					<img src="images/bg_quote_wrap.png">
+						<section class="message">
+							<span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+							aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+							aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+							aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+							</span>
+							<span>bbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</span>
+							<span>ccccc
+							cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</span>
+							<span>dddddddddddddd
+							hhgfhggfffgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+							dddddddddddddddddddddddddddddddddd</span>
+						</section>
+					</div>
 				<ul class="nav">
 					<li class="active"></li>
 					<li></li>

@@ -7,15 +7,40 @@ div.container article.home{
 	padding-top:1px !important;	
 }
 
-div.container article section{
-	/*outline:1px solid #6CF;*/	
-}
-div.container article.first section{
+div.container article.first{
+	position:relative;
 	background:url(images/bg-jquery-bnr.jpg) no-repeat top center;
 	width:940px;
 	height:283px;
-	margin:0 auto;
+	margin:0 auto;	
 }
+article.first div.sl-FR-Out{
+	position:absolute;
+	top:12px;
+	right:12px;
+	width:404px;
+	height:256px;	
+}
+article.first ul.navFirst{
+	position:absolute;
+	list-style-type:none;
+	margin:0 auto;
+	bottom:0;
+	left:0;
+	right:0;
+	width:75px;
+}
+ul.navFirst li{
+		background:url(images/buton.png) -12px -17px no-repeat;
+		float:right;
+		width:12px;
+		height:17px;
+		margin-right:5px;
+		cursor:pointer;
+	}
+	ul.navFirst li.active,ul.navFirst li:hover{
+		background:url(images/buton.png) 0 -17px no-repeat;
+	}
 div.container article.second section{
 	background-image:url(images/separator3.gif),url(images/separator3.gif);
 	background-position:top center, bottom center;
