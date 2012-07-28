@@ -23,7 +23,7 @@ window.onload=function(){
 				}
 			})(i)	
 		}
-		setInterval(nextFirst,3000);
+		setInterval(nextFirst,4000);
 		//for second slide show on home page
 		var currentMessage=0, message=document.getElementsByClassName('message').item(0);
 		goMessage=function(n){
