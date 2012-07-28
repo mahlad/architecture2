@@ -1,12 +1,14 @@
 window.onload=function(){
 		//for first slideshow*/
 		var currentSlide=0, currentLi=0,
-			imgSrc=document.getElementsByClassName('sl-FR-Out').item(0).getElementsByTagName('img');
+			imgSrc=document.getElementsByClassName('sl-FR-Out').item(0).getElementsByTagName('img'),
+			contentLeft=document.getElementsByClassName('sectionFirst').item(0);
 		goSlideFirst=function(n){
 			if(n>listFirst.length-1)n=0; 
 			imgSrc.item(0).src="images/first-slide-"+n+".jpg";
 			listFirst.item(currentSlide).className='';
 			listFirst.item(n).className='active';
+			contentLeft.style.right=(-375*n)+'px';
 			currentSlide=n;
 		
 		}
