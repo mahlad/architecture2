@@ -85,7 +85,6 @@ div.container article.second section{
 	padding:10px;	
 }
 article.third section{
-	outline:1px solid #CCC;
 	min-height:300px;
 }
 article.third section img,article.third section h4, article.third section p,article.third section a{
